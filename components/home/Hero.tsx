@@ -1,0 +1,7 @@
+import Link from 'next/link';
+
+
+export function Hero(){return <section id="games" className="hub-hero shell"><div className="hub-heading"><span className="eyebrow">PLAY. LEARN. RESCUE.</span><h1>우리는 <span>구조대</span></h1><p>한글, 수학, 과학을 게임으로 구조하며 배워요.</p><div className="hub-promise"><span>가입 없이 바로 시작</span><span>모든 단계 자유 선택</span><span>틀려도 다시 도전</span></div></div><div className="game-choice-grid"><Link href="/game" className="game-choice-card letter-choice"><div className="choice-copy"><small>01 / HANGUL RESCUE</small><h2>받침구조대</h2><p>한 글자씩, 자신감 한 칸씩.<br/>받침·맞춤법·어휘·한자를 구조해요.</p><div className="game-choice-tags"><span>7개 월드 · 35단계</span><span>나에게 맞는 난이도</span></div><strong className="choice-cta">한글 임무 시작 <span>→</span></strong></div></Link><Link href="/numbers" className="game-choice-card number-choice"><div className="choice-copy"><small>02 / NUMBER RESCUE</small><h2>숫자구조대</h2><p>더하고, 빼고, 곱하고, 나누고.<br/>생각하는 연산을 시작해요.</p><div className="game-choice-tags"><span>기본·도전·최고 수준</span></div><strong className="choice-cta">숫자 임무 시작 <span>→</span></strong></div></Link><Link href="/science" className="game-choice-card science-choice"><div className="choice-copy"><small>03 / SCIENCE RESCUE</small><h2>생명구조대</h2><p>관찰하고 비교하고 근거를 찾아요.<br/>생명·물질·에너지·지구·우주·환경을 탐구해요.</p><div className="game-choice-tags"><span>6개 테마 · 30단계</span></div><strong className="choice-cta">생명구조 임무 시작 <span>→</span></strong></div></Link></div></section>;}
+
+
+

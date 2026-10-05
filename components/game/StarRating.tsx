@@ -1,0 +1,1 @@
+export function StarRating({stars=0}:{stars?:number}){return <span className="star-rating" aria-label={`별 3개 중 ${stars}개`}>{[1,2,3].map(n=><span key={n} className={n<=stars?'earned':'unearned'} aria-hidden="true">★</span>)}</span>;}

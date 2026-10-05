@@ -1,0 +1,12 @@
+node_modules/
+.next/
+*.tsbuildinfo
+.env*
+!.env.example
+test-results/
+.superpowers/
+.tools/
+
+sites-release/
+sites-release-deploy.tar.gz
+artifacts/

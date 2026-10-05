@@ -1,0 +1,1 @@
+export function PuzzlePieceProgress({count}:{count:number}){return <span className="puzzle-progress" aria-label={`구조 조각 ${count}개, 총 5개`}><span aria-hidden="true">{[1,2,3,4,5].map(n=><span className={n<=count?'piece found':'piece'} key={n}>{n<=count?'◆':'◇'}</span>)}</span><small>{count} / 5</small></span>;}

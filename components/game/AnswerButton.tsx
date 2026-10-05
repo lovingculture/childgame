@@ -1,0 +1,2 @@
+export function AnswerButton({choice,index,selected,correct,disabled,onClick}:{choice:string;index:number;selected:boolean;correct:boolean|null;disabled:boolean;onClick:()=>void}){return <button className={`answer-button ${choice.length>20?'long-choice':''} ${selected?(correct?'correct':'incorrect'):''}`} disabled={disabled} onClick={onClick}><span className="choice-number">{index+1}</span><strong>{choice}</strong>{selected&&<span className="answer-mark">{correct?'✓':'✕'}</span>}</button>;}
+

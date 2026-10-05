@@ -1,0 +1,29 @@
+받침구조대 266문제 구성
+
+World 1 Stage 1: 10문제
+World 1 Stage 2: 10문제
+World 1 Stage 3: 10문제
+World 1 Stage 4: 10문제
+World 1 Stage 5: 12문제
+World 2 Stage 1: 10문제
+World 2 Stage 2: 10문제
+World 2 Stage 3: 10문제
+World 2 Stage 4: 10문제
+World 2 Stage 5: 12문제
+World 3 Stage 1: 10문제
+World 3 Stage 2: 10문제
+World 3 Stage 3: 10문제
+World 3 Stage 4: 10문제
+World 3 Stage 5: 12문제
+World 4 Stage 1: 10문제
+World 4 Stage 2: 10문제
+World 4 Stage 3: 10문제
+World 4 Stage 4: 10문제
+World 4 Stage 5: 15문제
+World 5 Stage 1: 10문제
+World 5 Stage 2: 10문제
+World 5 Stage 3: 10문제
+World 5 Stage 4: 10문제
+World 5 Stage 5: 15문제
+
+총합: 266문제
